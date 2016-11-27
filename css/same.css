@@ -1,0 +1,172 @@
+*{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+	text-decoration:none;
+}
+/*******logo*********/
+body{
+	background: #e5e5e5;
+}
+#h0{
+	width:1050px; 
+	margin:0 auto; 
+	background:#fff;
+}
+#h1,#h2,#h3,#h4,#h5,#h6{
+	border:1px solid transparent;
+	background:#fff;
+	margin: auto;
+	width:1004px;
+}
+
+#h1 {
+	height: 87px;
+}
+#h1 div{
+	margin-bottom:13px;
+	margin-right:8px;
+}
+#h1 table{
+	font-size:0.85em;
+}
+
+#h1 table a{
+	cursor:pointer;
+	color:black;
+	padding-right:10px;
+	margin-left:10px;
+}
+#h1 a:hover{
+	color:red;
+}
+/**********nav栏*******/
+#h2 {
+	height: 45px;
+	padding-top:12px;
+}
+#h2 .xuanzhong{
+	color:#22CCB3;
+	border-bottom:4px solid #22CCB3;
+	padding-bottom:4px;
+}
+#h2 ul li{
+	height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+	display: inline;
+	position:relative;
+	
+}
+#h2 ul{
+	background: #1B1B1B;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+#h2 ul li a{
+	color:#fff;
+	padding:7px 11px 8px 10px;
+}
+#h2 .pop{
+	position:absolute;
+	background-color:rgba(30,30,30,1);
+	width:85px;
+	left:0px;
+	display:none;
+	height:0px;
+	border-radius:0 0px 3px 3px;
+}
+#h2 .pop p{
+	font-size:14px;
+	color:#fff;
+	height:35px;
+	
+}
+#h2 .pop p:hover{
+	color:#22CCB3;
+	font-size:15px;
+}
+/****hoveryangshi****/
+
+/*****hr分割首页用不到*****/
+#h4 {
+	height: 40px;
+	
+}
+.fengexianshang{
+   
+    font-size: 12px;
+    color: #6EBBB4;
+}
+#h4 hr{
+	width:785px;
+	margin-left:10px;
+	border:1px solid;
+	color:#ddd;
+	
+}
+.fengexian2{
+	font-size:13px;
+}
+#h5{
+	width:100px;
+	font-size:0.85em;
+}
+.fenlei{
+		color:#fff;
+		height:32px;
+		font-size:20px;
+		width:110px;
+		background:#98D7D0;
+		text-align:center;
+		line-height:32px;
+		border-radius:3px;
+		cursor:pointer;
+		margin-top:5px;
+}
+.fenlei:hover{
+	background:#43ACA2;
+	
+}
+#h5 .content{
+		padding-left:0px;
+		padding-top:30px;
+		line-height:30px;
+	}
+#h5 table td{
+	position:relative;
+}
+/*********fooder栏*******/
+#h6 {
+	height: 90px;
+	width: 1004px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 25px;
+    color: #666;
+    font-size: 15px;
+	background:#fff;
+	margin-top:30px;
+}
+#h6 a{
+	padding: 0 15px;
+    border-right: solid 1px #cad5d7;
+    color: #666;
+    text-decoration: none;  
+}
+#h6 .last{
+	border:none
+}
+#h6 span{
+	padding:0 10px;
+	width:80px;
+}
+a{
+	color:black;
+}
+a:hover{
+	color:red;
+}
+
