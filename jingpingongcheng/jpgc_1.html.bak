@@ -70,13 +70,16 @@
 	.link{
 		position:absolute;
 		color:#fff;
-		width:100%;
+		width:90%;
 		padding-top:6px;
+		font-size:13px;
+		padding-left:5px;
+		padding-right:5px;
 	
 	}
 	.link h4{
 		text-align:center;
-		margin-bottom:1px;
+		margin-bottom:3px;
 	
 	}
 	.bg{
@@ -149,7 +152,8 @@
 		padding-top:15px;
 	}
 	#h8 .zi h3{
-	margin-bottom:10px;
+	margin-bottom:15px;
+	font-size:14px;
 	}
 	#h8 img{
 		width:350px;
@@ -230,8 +234,8 @@
 			<!--形象工程-->
 		<div class="kuang block" >
 			 <div class="tu" >
-					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>浮新小区</h4>浮新小区简介blalala</div></div><a ><img  src="../zhirutu/1形象工程/浮新小区2.jpg" /></a></div>
-					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>海泊人家</h4>海泊人家简介blalala</div></div><a ><img  src="../zhirutu/1形象工程/海泊人家2.jpg" /></a></div>
+					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>浮新小区</h4>浮新小区是青建公司于2002年参与建成，是一款中高档小区。小区地理位置优越，交通方便，绿化面积达到30%，基础设施完备</div></div><a ><img  src="../zhirutu/1形象工程/浮新小区2.jpg" /></a></div>
+					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>海泊人家</h4>海泊人家小区于2004-04-10号竣工，地处西吴路与人民交界位置，该小区属于市北档次较高的小区，隔着人民路就是海慈医院。</div></div><a ><img  src="../zhirutu/1形象工程/海泊人家2.jpg" /></a></div>
 					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>海丽花园小区</h4>海丽花园小区简介blalala</div></div><a ><img  src="../zhirutu/1形象工程/海丽花园小区2.jpg" /></a></div>
 					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>黄海水产研究所</h4>黄海水产研究所简介blalala</div></div><a ><img  src="../zhirutu/1形象工程/黄海水产研究所3.jpg" /></a></div>
 					<div class="skuang" onclick="showPicture()" ><div id="mask"><div class="bg"></div><div class="link"><h4>老市府</h4>老市府简介blalala</div></div><a ><img  src="../zhirutu/1形象工程/老市府.jpg" /></a></div>
@@ -338,13 +342,13 @@
 			<P>电话：0532-86669167 <span>&nbsp;</span>传真：0532-86669167</P>
 	  </div>
 	 </div>
-  <div id="h7"></div>
+  <div id="h7" onclick="huiFu()"></div>
   <div id="h8">
 	<span onclick="huiFu()">X</span>
 	<div class="title">浮新小区</div>
 	<div class="neirong">
 		<img src="../zhirutu/1形象工程/浮新小区.jpg"/>
-		<div class="zi"><h3>Lorem ipsum dolor sit amet, consectetur</h3>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad atque aut consequatur, cum cumque ea eligendi expedita quasi, quidem quos unde vitae!<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad atque aut consequatur, cum cumque ea!<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad atque aut consequatur, cum cumque ea eligendi expedita fugiat  vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+		<div class="zi"><h3>&nbsp;&nbsp;&nbsp;&nbsp;浮新小区地理位置优越，交通便利。占地面积215亩，总建筑面积18.6万平方米，可居住户数1600户，人口6000余人，绿地率42％，总投资1.8亿元，现已建成18万平方米，入住1600余户，人口达6000余人。<br>&nbsp;&nbsp;&nbsp;&nbsp;自二OO二年以来，浮新小区随着开发建设规模的逐步扩大，对建设小区内居民的生活环境、休闲场地、文化娱乐、健康文明等相关人民群众的最关心问题，放在了开发建设的首位。除在户型、设施等方面满足居民的同时，环境是满足居民选择、使用、理想居住的先决条件。<br>&nbsp;&nbsp;&nbsp;&nbsp;自绿色社区、安静社区、文明社区等活动开展以来，都得到了市委、市政府的高度重视，得到了市文明办、市环保局、市房管局、市园林局等上级的大力支持，给小区的各项活动建设提供了先进的理念，丰富的知识，实用的技术、科学的服务，加速了创建步伐。 </div>
 		
 	</div>
 	<div class="bottom">
