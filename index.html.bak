@@ -136,6 +136,7 @@
 }
 </style>
 </head>
+
 <body>
 <div id="h0">
 	<div id="h1">
@@ -232,7 +233,7 @@
 		<div id="indemo">
 		  <div id="demo1">
 			<a href="jingpingongcheng/jpgc_1.html"><img src="zhirutu/公共建筑工程/1青岛环境整治宁夏路样板段.jpg"/></a>
-			<a href="jingpingongcheng/jpgc_1.html"><img src="zhirutu/公共建筑工程/1青岛金沙滩海水浴场环境设计.jpg"/></a>
+			<a onclick="opens()" ><img  src="zhirutu/公共建筑工程/1青岛金沙滩海水浴场环境设计.jpg"/></a>
 			<a href="jingpingongcheng/jpgc_1.html"><img src="zhirutu/公共建筑工程/1青岛人防龙山商业街.jpg"/></a>
 			<a href="jingpingongcheng/jpgc_1.html"><img src="zhirutu/公共建筑工程/1青岛市保税区国税局.jpg"/></a>
 			<a href="jingpingongcheng/jpgc_1.html"><img src="zhirutu/公共建筑工程/1青岛市出入境管理局.jpg"/></a>

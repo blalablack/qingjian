@@ -58,7 +58,7 @@
 		var h3=$("#h3");
 		h3.mouseenter(function(){
 			aa.p();
-			console.log(1);
+
 		});
 		h3.mouseleave(function(){
 			aa.t();
@@ -74,10 +74,11 @@
 		tab2.innerHTML=tab1.innerHTML;
 		
 		function Marquee(){
-			if(tab2.offsetWidth-tab.scrollLeft<=0){
+			if(tab2.offsetWidth<=tab.scrollLeft){
 				tab.scrollLeft-=tab1.offsetWidth
 			}else{
 				tab.scrollLeft++;
+				console.log(tab.scrollLeft);
 			}
 		}
 		var MyMar=setInterval(Marquee,speed);
@@ -215,7 +216,7 @@
 				$(this).children(".pop").css({"height":"0","display":"none"});	
 			});
 		})
-	}
+	};
 	/******************精品工程内容ul的hover，click*******/
 	$("#h5 ul li").mouseenter(function(){
 		$(this).css({borderColor:"#22CCB3"});

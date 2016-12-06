@@ -58,7 +58,7 @@
 		var h3=$("#h3");
 		h3.mouseenter(function(){
 			aa.p();
-			console.log(1);
+
 		});
 		h3.mouseleave(function(){
 			aa.t();
@@ -74,7 +74,7 @@
 		tab2.innerHTML=tab1.innerHTML;
 		
 		function Marquee(){
-			if(tab2.offsetWidth-tab.scrollLeft<=0){
+			if(tab2.offsetWidth<=tab.scrollLeft){
 				tab.scrollLeft-=tab1.offsetWidth
 			}else{
 				tab.scrollLeft++;
