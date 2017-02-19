@@ -167,7 +167,7 @@ function showPicture(num) {
     var h7 = $("#h7");
     //发送ajax请求，取到图片地址和文字信息
     $.ajax({
-        url: 'https://blalablack.github.io/qingjian/javascript/shuju.jsp',
+        url: 'https://blalablack.github.io/ajax/3/shuju.jsp',
         dataType: 'json',
         cache: true,//这里因为是简单的ajax请求，一次取到全部的所以允许缓存
         success: function (data) {
